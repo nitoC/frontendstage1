@@ -17,4 +17,4 @@ const weekday = [
 
 setInterval(()=>{
     time.innerHTML = (new Date().toISOString())
-},1000)
+},10)
