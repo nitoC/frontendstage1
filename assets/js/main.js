@@ -16,5 +16,5 @@ const weekday = [
   dayElement.innerHTML= day
 
 setInterval(()=>{
-    time.innerHTML = ((new Date().toISOString()).slice(0, -5))+"Z"
+    time.innerHTML = (new Date().toISOString())
 },1000)
