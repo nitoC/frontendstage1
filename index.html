@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>zuri frontend</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="logo" data-testid="slackUserName">Chinedu Mbaodoh</h1>
+        </header>
+        <main class="body">
+            <section class="image-section">
+                <div class="image-wrapper">
+                    <img src="assets/images/download.jpeg" alt="Chinedu Mbaodoh" class="image" data-testid="slackDisplayImage">
+                </div>
+            </section>
+            <section class="data">
+                <div class="time-details">
+                    <h2 class="day" id="day" data-testid="currentDayOfTheWeek" >
+                    </h2>
+                    <div class="utc-time-wrapper">
+                        <h3 class="time-header heading">
+                            Time
+                        </h3>
+                        <p class="time" id="time" data-testid="currentUTCTime">
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="track-details">
+                    <h3 class="track-heading heading">Track</h3>
+                    <p class="track" data-testid="myTrack">Frontend</p>
+                </div>
+                <div class="repository">
+                    <h3 class="repo-heading heading">Github</h3>
+                    <a href="" class="repo" data-testid=“githubURL” ></a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            &copy 2023 @mbaodoh
+        </footer>
+        <script src="assets/js/main.js" async defer></script>
+    </body>
+</html>

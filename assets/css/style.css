@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+Linear+B&family=Noto+Sans+Pau+Cin+Hau&family=Open+Sans:wght@300&family=Orbitron:wght@500&family=Oswald:wght@200&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    padding:1rem 4rem;
+    background-color: black;
+    color:wheat;
+    
+}
+.logo{
+    font-family: 'Lobster', cursive;
+    padding: .2rem 1rem;
+}
+.body{
+    display: flex;
+}
+.image-section{
+    width:45vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.image-wrapper{
+    width:220px;
+    aspect-ratio: 2/3;
+    position: relative;
+    border:4px solid wheat;
+}
+.image{
+    width:100%;
+    object-fit: contain;
+    position: absolute;
+    top:24px;
+    left:20px;
+
+}
+.data{
+    padding:2rem;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 2rem;
+    padding:.3rem .2rem;
+}
+.time,.track{
+    padding:1rem;
+font-family: 'Orbitron', sans-serif;
+}
