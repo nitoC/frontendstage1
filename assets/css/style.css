@@ -31,7 +31,7 @@
 }
 .image-wrapper{
     width:220px;
-    aspect-ratio: 2/3;
+    aspect-ratio: 1/1;
     position: relative;
     border:4px solid wheat;
 }
